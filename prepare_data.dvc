@@ -1,0 +1,13 @@
+md5: e2305d1a9110ea107585476948292b6e
+cmd: papermill prepare_data.ipynb prepare_data_out.ipynb
+deps:
+- md5: 211cd507cf9aabfdd3a63a37db603d17
+  path: prepare_data.ipynb
+- md5: ae7202b37ab8f1bdcb9f52ac922fa11b.dir
+  path: data/raw
+outs:
+- md5: f3e1f3905a9920d75887bb4b3235c840.dir
+  path: data/prepared
+  cache: true
+  metric: false
+  persist: false

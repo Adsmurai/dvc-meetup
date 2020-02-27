@@ -1,0 +1,13 @@
+md5: e253dcb5a823603afebc0c511db84fda
+cmd: papermill extract_features.ipynb extract_features_out.ipynb
+deps:
+- md5: 88400d441c4370a57881a6cf9def5168
+  path: extract_features.ipynb
+- md5: e0c2f6a7ef651f03050f19ab4f68b2b2.dir
+  path: data/prepared
+outs:
+- md5: 80fd58c3e5231acfe72a87a1f4569de8.dir
+  path: data/features
+  cache: true
+  metric: false
+  persist: false

@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+dvc = "*"
+pandas = "*"
+scikit-learn = "*"
+jupyterlab = "*"
+papermill = "==1.2.1"
+
+[packages]
+
+[requires]
+python_version = "3.7"

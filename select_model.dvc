@@ -1,14 +1,14 @@
-md5: f5b142f074619b70da0b881f6ab43822
+md5: 58806a3822f3dfa2464a9bf2bbf9486f
 cmd: papermill select_model.ipynb select_model_out.ipynb
 deps:
 - md5: 039bad1d28ad39f7be84104bbf26fd67
   path: select_model.ipynb
-- md5: 687eb39734f3548f432948dcf1da2b51
+- md5: 7969fe087c99057e0d9ec7cc0a737241
   path: model.py
-- md5: e028e89f61cbc4506d83ba9bf5d4559a.dir
+- md5: 80fd58c3e5231acfe72a87a1f4569de8.dir
   path: data/features
 outs:
-- md5: b3700903d4b8a41967a6369c61341cf7.dir
+- md5: 6ea0809900767968841e6c151f2e1161.dir
   path: model
   cache: true
   metric: false

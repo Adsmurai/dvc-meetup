@@ -1,16 +1,16 @@
-md5: a8c4e109c5455517ed412ea4f5a28c60
+md5: d1a55d18c0a6364365c16cbdb908803f
 cmd: papermill test_model.ipynb test_model_out.ipynb
 deps:
 - md5: 7640ea6ef20bab8124957f114d865612
   path: test_model.ipynb
-- md5: e028e89f61cbc4506d83ba9bf5d4559a.dir
+- md5: 80fd58c3e5231acfe72a87a1f4569de8.dir
   path: data/features
-- md5: b3700903d4b8a41967a6369c61341cf7.dir
+- md5: 6ea0809900767968841e6c151f2e1161.dir
   path: model
-- md5: 687eb39734f3548f432948dcf1da2b51
+- md5: 7969fe087c99057e0d9ec7cc0a737241
   path: model.py
 outs:
-- md5: 0a301c63b27a8a3697d95199ecf9f3e6
+- md5: 987c8a35a630044b24b9ad667403631f
   path: test_metrics.json
   cache: true
   metric: true

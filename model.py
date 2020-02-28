@@ -1,11 +1,13 @@
 import random
 
-class Model():
-    def __init__(self):
-        random.seed(42)
+import numpy as np
+from sklearn.tree import DecisionTreeClassifier
 
+
+class Model():
     def train(self, X, y):
-        self._targets = y.unique().tolist()
+        self._model = DecisionTreeClassifier(random_state=42)
+        self._model.fit(X=X, y=y) # skipped parameter tunning for simplycity
         
-    def predict(self, x):
-        return [random.choice(self._targets) for _ in x]
+    def predict(self, X):
+        return self._model.predict(X)
